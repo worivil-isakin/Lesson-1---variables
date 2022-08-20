@@ -1,9 +1,23 @@
-// A gobal varabile is declared with var 
-var x = 10;
+// A basic comment 
 
-// A local varabile is declared with let.
-let x = 5;
+/*
+A multiline comment 
+*/
 
-// A varabile that will not change is declared with const
-const pie = 3.14159265
+// A gobal variable in javascript is declared with var
+var x = 5
 
+// prints 5
+console.log(x)
+
+// a local variable in javascript is declared with let 
+let y = 10;
+
+// prints 10
+console.log(y)
+
+// a const variable in javascript is declared with
+const pie = 3.141592653589793
+
+// prints 3.141592653589793
+console.log(pie)
